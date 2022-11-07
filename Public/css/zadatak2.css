@@ -1,0 +1,96 @@
+div[id="container"]{
+    background-color: rgb(60, 112, 144);
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-rows: 20% 40% 40%;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: 
+    "meni meni meni"
+    "odabir graf1 graf2"
+    "odabir graf3 graf4"
+}
+#odabirVjezbe{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-area: odabir;
+    background-color: rgb(60, 112, 144);
+    border: 10px solid rgb(116, 173, 219);
+
+}
+#meni{
+    grid-area: meni;
+    background-color: rgb(60, 112, 144);
+    padding-top: 50px;
+    
+}
+li{
+    display: inline;
+}
+img{
+    max-width: 100%;
+    min-height: 0;
+    max-height: 100%;
+}
+button[id="vjezba"]{
+    background-color: lightgray;
+    display: block;
+    width:100%;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    height:fit-content;
+}
+#zadatak1{
+ display: block;
+}
+button[id="zadatak"]{
+    background-color:  lightskyblue;
+    width: fit-content;
+    text-transform: uppercase;
+    border: none;
+    padding: 3px;
+    margin: 4px;
+
+}
+#graf1{
+    grid-area: graf1;
+}
+#graf2{
+    grid-area: graf2;
+}
+#graf3{
+    grid-area: graf3;
+}
+#graf4{
+    grid-area: graf4;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline;
+}
+@media only screen and (max-width:799px) {
+    #container{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "meni"
+        "odabir"
+        "graf1"
+        "graf2"
+        "graf3"
+        "graf4";
+    }
+    #meni{
+        margin: 0;
+        padding:0;
+        text-align: center;
+    }
+    #meni li {
+        display: block;
+        padding: 10px 0 10px 0;
+    }
+}

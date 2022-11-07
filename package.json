@@ -1,0 +1,35 @@
+{
+  "name": "paket",
+  "version": "1.0.0",
+  "description": "aa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha dodajStudentaTest.js --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jheric1@bitbucket.org/Jheric1/wt21p18780.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/Jheric1/wt21p18780/issues"
+  },
+  "homepage": "https://bitbucket.org/Jheric1/wt21p18780#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.1",
+    "sinon": "^12.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.5",
+    "chai-http": "^4.3.0"
+  },
+    "compilerOptions": {
+      "target": "es6"
+    }
+
+}

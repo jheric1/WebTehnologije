@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(60, 112, 144);  
+    margin: 0;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #forma1{
+    background-color: lightblue;
+    padding:10%;
+    height: fit-content;
+    width:fit-content;
+    }
+    input {
+    float: right;
+    }
+    select{
+        float: right;
+        margin-left: 10px;
+    }
+    #forma2{
+        background-color: lightblue;
+        padding:5%;
+        height: fit-content;
+        width:fit-content;
+        margin-left: 10%;
+        }
+        textarea{
+            width: 200px;
+            height: 100px;
+        }
+    

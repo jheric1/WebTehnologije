@@ -1,0 +1,79 @@
+@objects
+	body body
+	forma1 #forma1
+	forma2 #forma2
+	odabirZadatka #odabirZadatka
+	odabirVjezbe #odabirVjezbe
+	odabirVerzije #odabirVerzije
+	komentar #komentar
+	button #button
+	errorsLog #errorsLog
+	button2 #button2
+	checkbox #checkbox
+
+= Width section =
+	forma1:
+		width 30 to 70 % of body/width
+	forma2:
+		width 30 to 70 % of body/width
+
+= Height section =
+
+= Inside section =
+	odabirVjezbe:
+		inside forma1
+	odabirZadatka: 
+		inside forma1
+	odabirVerzije: 
+		inside forma1
+	komentar: 
+		inside forma1
+	button:
+		inside forma1
+	errorsLog: 
+		inside forma2
+	checkbox:
+		inside forma2
+	button2:
+		inside forma2
+
+= Left of section =
+	forma1:
+		left-of forma2
+
+= Right of section =
+	forma2:
+		right-of forma1
+
+= Above section =
+	odabirVjezbe:
+		above odabirZadatka
+	odabirZadatka:
+		above odabirVerzije
+	odabirVerzije:
+		above komentar
+
+= Below section =
+	komentar:
+		below odabirVerzije
+	odabirVerzije:
+		below odabirZadatka
+	odabirZadatka:
+		below odabirVjezbe
+= Visible section =
+	odabirVjezbe:
+		visible
+	odabirZadatka:
+		visible
+	odabirVerzije:
+		visible
+	komentar:
+		visible
+	button:
+		visible
+	errorsLog: 
+		visible
+	checkbox:
+		visible
+	button2:
+		visible

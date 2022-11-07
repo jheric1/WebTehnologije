@@ -1,0 +1,521 @@
+{
+  "testId" : "1-test2.gspec",
+  "name" : "test2.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  test2.gspec --url http://localhost/zadaci.html --size 820x700 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: test2.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637090164482,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width 30 to 70 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "30 to 70% [242 to 566px]",
+                  "realDistance" : "45% [371px]"
+                } ],
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "width 30 to 70 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "30 to 70% [242 to 566px]",
+                  "realDistance" : "35% [284px]"
+                } ],
+                "highlight" : [ "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 22
+            },
+            "objects" : [ {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirVjezbe", "forma1" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirZadatka", "forma1" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirVerzije", "forma1" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "komentar", "forma1" ]
+              } ]
+            }, {
+              "name" : "button",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "button", "forma1" ]
+              } ]
+            }, {
+              "name" : "errorsLog",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "errorsLog", "forma2" ]
+              } ]
+            }, {
+              "name" : "checkbox",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "checkbox", "forma2" ]
+              } ]
+            }, {
+              "name" : "button2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "button2", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 40
+            },
+            "objects" : [ {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "left-of forma2",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "79px"
+                } ],
+                "highlight" : [ "forma1", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Right of section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 44
+            },
+            "objects" : [ {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "right-of forma1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "79px"
+                } ],
+                "highlight" : [ "forma2", "forma1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 48
+            },
+            "objects" : [ {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "above odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "odabirVjezbe", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "above odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "odabirZadatka", "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "above komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "odabirVerzije", "komentar" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 56
+            },
+            "objects" : [ {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "below odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "komentar", "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "below odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "odabirVerzije", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "below odabirVjezbe",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "odabirZadatka", "odabirVjezbe" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "test2.gspec",
+              "lineNumber" : 63
+            },
+            "objects" : [ {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirVjezbe" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 69
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 71
+                },
+                "name" : "visible",
+                "highlight" : [ "komentar" ]
+              } ]
+            }, {
+              "name" : "button",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "visible",
+                "highlight" : [ "button" ]
+              } ]
+            }, {
+              "name" : "errorsLog",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "visible",
+                "highlight" : [ "errorsLog" ]
+              } ]
+            }, {
+              "name" : "checkbox",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "visible",
+                "highlight" : [ "checkbox" ]
+              } ]
+            }, {
+              "name" : "button2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "test2.gspec",
+                  "lineNumber" : 79
+                },
+                "name" : "visible",
+                "highlight" : [ "button2" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "button" : {
+              "area" : [ 115, 308, 55, 22 ]
+            },
+            "odabirVjezbe" : {
+              "area" : [ 253, 88, 75, 18 ]
+            },
+            "odabirZadatka" : {
+              "area" : [ 246, 125, 83, 18 ]
+            },
+            "button2" : {
+              "area" : [ 526, 280, 138, 21 ]
+            },
+            "komentar" : {
+              "area" : [ 115, 198, 206, 106 ]
+            },
+            "errorsLog" : {
+              "area" : [ 526, 134, 206, 106 ]
+            },
+            "checkbox" : {
+              "area" : [ 716, 247, 13, 13 ]
+            },
+            "forma2" : {
+              "area" : [ 486, 76, 284, 265 ]
+            },
+            "forma1" : {
+              "area" : [ 36, 9, 371, 398 ]
+            },
+            "odabirVerzije" : {
+              "area" : [ 254, 161, 75, 18 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637090161444,
+        "type" : "node"
+      } ],
+      "time" : 1637090158061,
+      "type" : "node"
+    } ]
+  }
+}

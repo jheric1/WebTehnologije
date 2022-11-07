@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(60, 112, 144);  
+    margin: 0;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+#forma{
+    background-color: lightblue;
+    padding:2%;
+    height: fit-content;
+    width:fit-content;
+    margin-bottom: 50px;
+}
+.form-row{
+    background-color: lightblue;
+    padding: 2%;
+    height: fit-content;
+    width:fit-content;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(60, 112, 144);  
+    margin: 0;
+    padding:5px;
+
+    }
+    #forma{
+    background-color: lightblue;
+    padding:5%;
+    height: fit-content;
+    width:450px;
+    }
+    input {
+    float: left;
+    }
+    #csv{
+        width: 300px;
+        height: 150px;
+    }
+    #ajaxstatus{
+        display:inline-block;
+    }
+    #box{
+        position: relative;
+        display:flex;
+	justify-content: center;
+    }

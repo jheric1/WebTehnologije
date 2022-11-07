@@ -1,0 +1,22 @@
+body{
+background-color: rgb(60, 112, 144);  
+margin: 0;
+padding:20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#forma{
+background-color: lightblue;
+padding:10%;
+height: fit-content;
+width:fit-content;
+}
+input {
+float: right;
+margin-left: 10px;
+}
+textarea{
+    width: 200px;
+    height: 100px;
+}
